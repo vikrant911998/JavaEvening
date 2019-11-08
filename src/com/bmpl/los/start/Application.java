@@ -24,11 +24,8 @@ public class Application {
 			}
 			else {
 				//checkStage
-				boolean isUserFound = los.checkStage(applicationNumber);
-				if(isUserFound)
-					System.out.println("User exists");
-				else
-					System.out.println("Invalid Application Number");
+				los.checkStage(applicationNumber);
+				
 			}
 		}
 
